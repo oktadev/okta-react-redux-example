@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "license": "Apache 2.0",
   "dependencies": {
+    "bootstrap": "4.2.1",
     "react": "^16.8.1",
+    "react-bootstrap-typeahead": "3.3.4",
     "react-dom": "^16.8.1",
     "react-redux": "6.0.0",
     "react-scripts": "2.1.3",
