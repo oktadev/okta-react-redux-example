@@ -14,7 +14,6 @@ const Detail = ({ show }) =>
       <div className="media-body">
         <h5 className="mt-0">
           {show.name}
-          {console.log(show)}
           {show.network && <small className="ml-2">{show.network.name}</small>}
         </h5>
         {ReactHtmlParser(show.summary)}
