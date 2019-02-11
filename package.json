@@ -1,7 +1,7 @@
 {
   "name": "okta-react-redux",
   "version": "0.1.0",
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "dependencies": {
     "bootstrap": "4.2.1",
     "react": "^16.8.1",
