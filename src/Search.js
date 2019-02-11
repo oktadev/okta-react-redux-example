@@ -30,7 +30,7 @@ const mapStateToProps = state => ({
 });
 
 const mapDispatchToProps = dispatch => ({
-  fetchShows: value => searchShows(value).then(dispatch),
+  fetchShows: value => dispatch(searchShows(value)),
   selectShow: ([show]) => dispatch(selectShow(show && show.id)),
 });
 

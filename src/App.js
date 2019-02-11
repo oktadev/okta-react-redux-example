@@ -5,8 +5,8 @@ import { Security, ImplicitCallback, withAuth } from '@okta/okta-react';
 import { Provider } from 'react-redux';
 import store from './store';
 
-import Search from './search';
-import Detail from './detail';
+import Search from './Search';
+import Detail from './Detail';
 
 const App = withAuth(({ auth }) => {
   const [authenticated, setAuthenticated] = useState(null);
