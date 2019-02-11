@@ -7,10 +7,12 @@ import Search from './search';
 import Detail from './detail';
 
 const App = () => (
-  <>
+  <div className="m-3">
     <Search />
-    <Detail />
-  </>
+    <div className="my-3">
+      <Detail />
+    </div>
+  </div>
 );
 
 export default () => (
