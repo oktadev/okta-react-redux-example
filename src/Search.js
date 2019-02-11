@@ -19,7 +19,7 @@ const Search = ({ shows, fetchShows, selectShow, onChange }) => {
       }}
       onChange={selectShow}
       placeholder="Search for a TV show..."
-      isLoading={!!value && !shows.search[value]}
+      isLoading={Boolean(value) && !shows.search[value]}
       options={options}
     />
   );
