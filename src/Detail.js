@@ -5,12 +5,14 @@ import { connect } from 'react-redux';
 const Detail = ({ show }) =>
   show ? (
     <div className="media">
-      <img
-        className="align-self-start mr-3"
-        width={200}
-        src={show.image.original}
-        alt={show.name}
-      />
+      {show.image && (
+        <img
+          className="align-self-start mr-3"
+          width={200}
+          src={show.image.original}
+          alt={show.name}
+        />
+      )}
       <div className="media-body">
         <h5 className="mt-0">
           {show.name}
